@@ -1,0 +1,7 @@
+services:
+  premium.premium_service:
+    class: Drupal\premium\PremiumService
+  premuim_event_subscriber:
+    class: Drupal\premium\PremiumSubscriber
+     tags:
+      - { name: event_subscriber }

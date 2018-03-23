@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/css-premium.css: {}
+
+  js:
+    js/js-premium.js: {}
+    

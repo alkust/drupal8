@@ -1,0 +1,24 @@
+premium.PremiumController.isGold:
+  path: '/suis-je-gold'
+  defaults:
+    controller: '\Drupal\modules\premium\Controller\PremiumController::isGold'
+    title: "Suis-je Premium"
+  requirements:
+    permission: 'access content'
+
+
+premium.premium_controller_isUserGold:
+  path: '/suis-je-gold/{uid}'
+  defaults:
+    title: "Suis-je Premium"
+    controller: '\Drupal\modules\premium\Controller\PremiumController::isUserGold'
+  requirements:
+    permission: 'access premium , access content'
+
+premium.premium_form:
+  path: '/premium/monform'
+  defaults:
+    _title : 'Premium '
+    _form: '\Drupal\premium\Form\PremiumForm'
+    requirements:
+      _permission: 'access content'

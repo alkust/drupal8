@@ -1,0 +1,32 @@
+head {
+    background-color: linear-gradient(red, yellow, green);
+}
+body {
+    background-color: gray;
+}
+
+.site-name{
+    font-size: large;
+}
+
+
+.quickedit-field{
+        display: grid;
+}
+
+.test {
+float:  right;
+}
+
+
+dev.view-content{
+  background-color: blue;
+    display: grid;
+}
+
+#view-name-table-column{
+  background-color: red;
+}
+.conta {
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
